@@ -1,5 +1,5 @@
 import '../styles/Homepage.css'
-import profilePicture from '../assets/Profile-picture.jpg';
+import profilePicture from '../assets/Profile-picture.png';
 import { Github } from 'react-bootstrap-icons';
 import { Linkedin } from 'react-bootstrap-icons';
 import {Container, Row, Col} from 'react-bootstrap';
@@ -22,7 +22,7 @@ const Homepage = () => {
                             textAlign: "center"}}>
                         <img className="profile-pic" src={profilePicture} alt="Profile of Lily McClain"
                         style={{
-                            width: "200px"
+                            width: "25vw"
                             }}/>
                     </Col>
                     <Col xs={{span: 12, order:1}} 
@@ -31,7 +31,8 @@ const Homepage = () => {
                             l={{span: 6, order:2 }} 
                             xl={{span: 6, order:2 }}
                             style={{
-                            textAlign: "center"}}
+                            textAlign: "center",
+                            alignContent: "center"}}
                         >
                             <h1
                             style={{fontSize: "6vh",
