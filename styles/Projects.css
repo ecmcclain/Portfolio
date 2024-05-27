@@ -1,0 +1,8 @@
+.card-body{
+    display: block;
+}
+
+.border-dark{
+    border: 1px solid black !important;
+    margin: 10px 0px 5px 0px;
+}

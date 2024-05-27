@@ -1,0 +1,4 @@
+.card-body.tech{
+    display: flex;
+    justify-content: space-around;
+}

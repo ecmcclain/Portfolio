@@ -1,0 +1,14 @@
+#homepage{
+    display: dflex;
+    flex-direction: row;
+}
+
+.homepage-icons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.profile-pic {
+    width: 100px
+}
