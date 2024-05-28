@@ -42,11 +42,11 @@ const Homepage = () => {
                         <h4 style={{
                             textAlign: "center",
                             fontSize: "4vh",
-                            color: "#172c66"}}>
+                            color: "white"}}>
                         Software Engineer
                         </h4>
                         <div className="socials"> 
-                            <a href='https://github.com/ecmcclain'><Github size={42}/></a>{' '}
+                            <a href='https://github.com/ecmcclain'><Github size={42}/></a>&emsp;
                             <a href='https://www.linkedin.com/in/lily-mcclain/'><Linkedin size={42}/></a>
                         </div>  
                     </Col>

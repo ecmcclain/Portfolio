@@ -9,7 +9,6 @@ import {Container, Row, Col} from 'react-bootstrap';
 const About = () => {
     return (
         <section id="about">
-            <Container>
                 <Row>
                     <Col xs={{span: 12}} 
                         sm={{span: 12 }} 
@@ -41,7 +40,6 @@ const About = () => {
                         </Card>
                     </Col>
                 </Row>
-            </Container>
         </section>
     )
 }

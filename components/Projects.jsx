@@ -17,7 +17,7 @@ const Projects = () => {
                         l={{span: 6}} 
                         xl={{span: 6}}>
                 <Card className = 'border-dark' style={{ height: '35rem' }}>
-                    <Card.Header as="h5">Lemme Show You a Song</Card.Header>
+                    <Card.Header as="h5"><b>Lemme Show You a Song</b></Card.Header>
                     <Card.Img variant="top" src="assets/homepage.png" />
                     <Card.Body>
                         <Card.Text>
@@ -26,8 +26,8 @@ const Projects = () => {
                         <footer className="footer">
                             PYTHON | FLASK | POSTGRESSQL | SQLALCHEMY | JAVASCRIPT | JINJA2 | AJAX | SPOTIFY API | CHART.JS | BOOTSTRAP
                         </footer><br></br>
-                        <Button href="https://www.youtube.com/watch?v=ALe5D4jcnQs" variant="primary"><PlayBtn /></Button>{' '}
-                        <Button href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md" variant="primary"><Github /></Button>
+                        <PlayBtn href="https://www.youtube.com/watch?v=ALe5D4jcnQs" size={28}/>&emsp;
+                        <Github href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md" size={28}/>
                     </Card.Body>
                 </Card>
                 </Col>
@@ -37,16 +37,16 @@ const Projects = () => {
                         l={{span: 6}} 
                         xl={{span: 6}}>
                 <Card className = 'border-dark' style={{ height: '35rem' }}>
-                    <Card.Header as="h5">Personal Portfolio</Card.Header>
-                    <Card.Img variant="top" src="assets/homepage.png" />
+                    <Card.Header as="h5"><b>Personal Portfolio</b></Card.Header>
+                    <Card.Img variant="top" src="assets/portfolio.png" />
                     <Card.Body>
                         <Card.Text>
-                            A living portfolio of my work so far. This project is hosted on GitHub pages and is frequently updated with my new work.  
+                            Meta, I know. A living portfolio of my work so far. This project is hosted on GitHub pages and is frequently updated with my new work.  
                         </Card.Text>
                         <footer className="footer">
                             REACT | BOOTSTRAP
                         </footer><br></br>
-                        <Button href="https://github.com/ecmcclain/Portfolio" variant="primary"><Github /></Button>
+                        <Github  href="https://github.com/ecmcclain/Portfolio" size={28}/>
                     </Card.Body>
                 </Card>
                 </Col>

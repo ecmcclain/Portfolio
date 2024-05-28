@@ -12,3 +12,8 @@
 .profile-pic {
     width: 100px
 }
+
+svg {
+    background-color: black;
+    color: #EDFFCC;
+}
