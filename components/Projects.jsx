@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card';
 import { PlayBtn } from 'react-bootstrap-icons';
 import { Github } from 'react-bootstrap-icons';
 import {Container, Row, Col} from 'react-bootstrap';
+import Portfolio from '../assets/portfolio.png';
+import LemmeShowYou from '../assets/homepage.png';
 
 const Projects = () => {
     return (
@@ -18,7 +20,7 @@ const Projects = () => {
                         xl={{span: 6}}>
                 <Card className = 'border-dark' style={{ height: '35rem' }}>
                     <Card.Header as="h5"><b>Lemme Show You a Song</b></Card.Header>
-                    <Card.Img variant="top" src="assets/homepage.png" />
+                    <Card.Img variant="top" src={LemmeShowYou} />
                     <Card.Body>
                         <Card.Text>
                             A full stack web application which allows Spotify users to generate playlists of recommended new songs. 
@@ -38,7 +40,7 @@ const Projects = () => {
                         xl={{span: 6}}>
                 <Card className = 'border-dark' style={{ height: '35rem' }}>
                     <Card.Header as="h5"><b>Personal Portfolio</b></Card.Header>
-                    <Card.Img variant="top" src="assets/portfolio.png" />
+                    <Card.Img variant="top" src={Portfolio} />
                     <Card.Body>
                         <Card.Text>
                             Meta, I know. A living portfolio of my work so far. This project is hosted on GitHub pages and is frequently updated with my new work.  
