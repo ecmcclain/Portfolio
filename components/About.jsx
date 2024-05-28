@@ -30,8 +30,8 @@ const About = () => {
                                     Bolstered by my years in nonprofit development, I am interested in projects prioritizing social change, open-access information, 
                                     and responsible AI. <br></br><br></br>
 
-                                    I am an incoming Software Engineering Intern at <a href='https://www.newmusesproject.com/about'>New Muses Project</a>, a DEI-centered classical music organization, promoting justice 
-                                    and curiosity through performance, education, and scholarship. <br></br><br></br>
+                                    {/* I am an incoming Software Engineering Intern at <a href='https://www.newmusesproject.com/about'>New Muses Project</a>, a DEI-centered classical music organization, promoting justice 
+                                    and curiosity through performance, education, and scholarship. <br></br><br></br> */}
 
                                     While you're here, check out of my current projects and technologies.<br></br><br></br>
 
