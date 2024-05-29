@@ -16,7 +16,7 @@ const About = () => {
                         l={{span: 12}} 
                         xl={{span: 12}}>
                         <Card>
-                            <Card.Header as="h2">Hello!</Card.Header>
+                            <Card.Header as="h2">Bio!</Card.Header>
                             <Card.Body>
                                 <Card.Text>
                                     I am an Applied Math major-turned-developer based in New York City with a passion for open source projects, 
