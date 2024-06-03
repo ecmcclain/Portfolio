@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import {Container, Row, Col} from 'react-bootstrap';
 import JimiBG from '../assets/site-bg.svg';
 import one from '/assets/1.png'
-import tow from '/assets/2.png'
+import two from '/assets/2.png'
 import three from '/assets/3.png'
 import four from '/assets/4.png'
 import five from '/assets/5.png'
@@ -75,9 +75,10 @@ const Jimi = () => {
                                 <img src={pic} className='Jimi' /> 
                             </Card.Body>
                     </Card> 
+
                     </Col>
                 </Row>
-            
+            <div id="images">{one}{two}{three}{four}{five}{six}{seven}{eight}{nine}{ten}</div>
 
         </section>
     )
