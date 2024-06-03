@@ -4,9 +4,20 @@ import { useState, useRef } from "react";
 import Card from 'react-bootstrap/Card';
 import {Container, Row, Col} from 'react-bootstrap';
 import JimiBG from '../assets/site-bg.svg';
+import one from '/assets/1.png'
+import tow from '/assets/2.png'
+import three from '/assets/3.png'
+import four from '/assets/4.png'
+import five from '/assets/5.png'
+import six from '/assets/6.png'
+import seven from '/assets/7.png'
+import eight from '/assets/8.png'
+import nine from '/assets/9.png'
+import ten from '/assets/10.png'
 
 
 const Jimi = () => {
+
     const [pic, setPic] = useState(getPic())
 
     const pics = useRef(null)
