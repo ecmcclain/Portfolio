@@ -2,15 +2,15 @@
     "jimiPics":
 
         [       
-            "../public/jimi-sits/1.PNG",
-            "../public/jimi-sits/2.PNG",
-            "../public/jimi-sits/3.PNG",
-            "../public/jimi-sits/4.PNG",
-            "../public/jimi-sits/5.PNG",
-            "../public/jimi-sits/6.PNG",
-            "../public/jimi-sits/7.PNG",
-            "../public/jimi-sits/8.PNG",
-            "../public/jimi-sits/9.PNG",
-            "../public/jimi-sits/10.PNG"
+            "../jimi-sits/1.PNG",
+            "../jimi-sits/2.PNG",
+            "../jimi-sits/3.PNG",
+            "../jimi-sits/4.PNG",
+            "../jimi-sits/5.PNG",
+            "../jimi-sits/6.PNG",
+            "../jimi-sits/7.PNG",
+            "../jimi-sits/8.PNG",
+            "../jimi-sits/9.PNG",
+            "../jimi-sits/10.PNG"
     ]
 }
