@@ -7,12 +7,19 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Portfolio from '../assets/portfolio.png';
 import LemmeShowYou from '../assets/homepage.png';
 
+import React, { useState } from 'react';
+
+
 const Projects = () => {
+    const [isShown, setIsShown] = useState(false);
+
     return (
-        <section id="projects">
+        <section id="projects" 
+            onMouseEnter={() => setIsShown(true)}
+            onMouseLeave={() => setIsShown(false)}>
             <Card >
-                <Row>
-                <Card.Header as="h2">Projects!</Card.Header>
+                <Row style={{justifyContent: "center"}}>
+                <Card.Header as="h2">Projects</Card.Header>
                 <Col xs={{span: 10}} 
                         sm={{span: 10}} 
                         md={{span: 6}} 
@@ -28,8 +35,11 @@ const Projects = () => {
                         <footer className="footer">
                             PYTHON | FLASK | POSTGRESSQL | SQLALCHEMY | JAVASCRIPT | JINJA2 | AJAX | SPOTIFY API | CHART.JS | BOOTSTRAP
                         </footer><br></br>
-                        <PlayBtn href="https://www.youtube.com/watch?v=ALe5D4jcnQs" size={28}/>&emsp;
-                        <Github href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md" size={28}/>
+                        {isShown && (<div><a href="https://www.youtube.com/watch?v=ALe5D4jcnQs"> <PlayBtn size={28} style={{
+                            animationIterationCount: "2" }} className="fa-bounce" /></a>&emsp;<a href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md"> <Github size={28} style={{
+                            animationIterationCount: "2" }} className="fa-bounce"  /></a></div>)}
+                        {!isShown && (<div><a href="https://www.youtube.com/watch?v=ALe5D4jcnQs"> <PlayBtn size={28}/></a>&emsp;<a href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md"> <Github size={28} /></a></div>)}
+                        
                     </Card.Body>
                 </Card>
                 </Col>
@@ -48,7 +58,9 @@ const Projects = () => {
                         <footer className="footer">
                             REACT | BOOTSTRAP
                         </footer><br></br>
-                        <Github  href="https://github.com/ecmcclain/Portfolio" size={28}/>
+                        {isShown && (<a href="https://github.com/ecmcclain/Portfolio"> <Github size={28} style={{
+                            animationIterationCount: "2" }}className="fa-bounce" /></a>)}
+                        {!isShown && (<a href="https://github.com/ecmcclain/Portfolio"> <Github size={28} /></a>)}
                     </Card.Body>
                 </Card>
                 </Col>

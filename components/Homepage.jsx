@@ -10,6 +10,12 @@ const Homepage = () => {
         <section id="homepage">
             <br></br>
             <br></br>
+            <Row>
+                    <Col xs={{span: 12}} 
+                        sm={{span: 12 }} 
+                        md={{span: 12}} 
+                        l={{span: 12}} 
+                        xl={{span: 12}}>
             <Card>
             <Container>
                 <Row>
@@ -53,6 +59,8 @@ const Homepage = () => {
                 </Row>
         </Container>
         </Card>
+        </Col>
+        </Row>
         </section>
     )
 }

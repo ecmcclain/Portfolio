@@ -16,8 +16,8 @@ const About = () => {
                         l={{span: 12}} 
                         xl={{span: 12}}>
                         <Card>
-                            <Card.Header as="h2">Bio!</Card.Header>
-                            <Card.Body>
+                            <Card.Header as="h2">About Me</Card.Header>
+                                <Card>
                                 <Card.Text>
                                     I am an Applied Math major-turned-developer based in New York City with a passion for open source projects, 
                                     data visualization, and learning new technologies and frameworks. <br></br><br></br>
@@ -33,10 +33,12 @@ const About = () => {
                                     {/* I am an incoming Software Engineering Intern at <a href='https://www.newmusesproject.com/about'>New Muses Project</a>, a DEI-centered classical music organization, promoting justice 
                                     and curiosity through performance, education, and scholarship. <br></br><br></br> */}
 
+                                    I have two cats and a dog—who is the charming cursor for this portfolio. 
+
                                     While you're here, check out of my current projects and technologies.<br></br><br></br>
 
                                 </Card.Text>
-                            </Card.Body>
+                                </Card>
                         </Card>
                     </Col>
                 </Row>

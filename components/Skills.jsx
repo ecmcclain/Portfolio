@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <section id="skills">
             <Card>
-                <Card.Header as="h2">Technologies!</Card.Header>
+                <Card.Header as="h2">Technologies</Card.Header>
                 <Col>
                     <Row>
                         <Card>
