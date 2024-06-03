@@ -78,7 +78,7 @@ const Jimi = () => {
 
                     </Col>
                 </Row>
-            <div id="images">{one}{two}{three}{four}{five}{six}{seven}{eight}{nine}{ten}</div>
+            <div className="images">{one}{two}{three}{four}{five}{six}{seven}{eight}{nine}{ten}</div>
 
         </section>
     )
