@@ -1,9 +1,11 @@
 .Jimi {
-    height: 50vh;
+    width: 50vh;
 }
 
-body {
-      /* background-image: url('../assets/site-bg.png') !important; */
+.background {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
 }
 
 /* .card{
