@@ -19,18 +19,19 @@ function App() {
       document.getElementById(href)?.scrollIntoView();
     }
    });
-   
+
   return (
     <>
     
       <div className="app-container">
 			<header>
 				<NavBar />
+      </header>
         <Routes>
           <Route path="/" element={<Layout />} />
           <Route path="/jimi" element={<Jimi />} />
         </Routes>
-			</header>
+			
 		</div>
     </>
   )

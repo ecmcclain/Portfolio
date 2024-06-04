@@ -26,7 +26,7 @@ const NavBar = () => {
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""}>
                             <button id="moreJimi">
-                                <img className="jimiIcon" src={JimiIcon}></img>
+                            &nbsp;&nbsp;<img className="jimiIcon" src={JimiIcon}></img>
                                 <b>JIMI SITS&nbsp;&nbsp;</b>
                                 <img className="jimiIcon" src={JimiIcon}></img>
                                 </button>
