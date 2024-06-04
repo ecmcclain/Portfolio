@@ -26,7 +26,7 @@ const Jimi = () => {
     const pics = useRef(null)
 
     function getPic(){
-        return JimiPics.jimiPics.test[(Math.floor(Math.random()*((JimiPics.jimiPics.test.length))))]
+        return JimiPics.jimiPics.dev[(Math.floor(Math.random()*((JimiPics.jimiPics.dev.length))))]
     }
 
     function handleOnClick(){
