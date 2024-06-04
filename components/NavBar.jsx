@@ -25,7 +25,11 @@ const NavBar = () => {
                     to="/jimi"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""}>
-                    <img className="jimiIcon" src={JimiIcon}></img><b>JIMI SITS</b>
+                            <button id="moreJimi">
+                                <img className="jimiIcon" src={JimiIcon}></img>
+                                <b>JIMI SITS&nbsp;&nbsp;</b>
+                                <img className="jimiIcon" src={JimiIcon}></img>
+                                </button>
                 </Link>                
             </Navbar.Collapse>
             </Container>
