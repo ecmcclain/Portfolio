@@ -27,7 +27,7 @@ const Projects = () => {
                         xl={{span: 6}}>
                 <Card className = 'border-dark' style={{ height: '35rem' }}>
                     <Card.Header as="h5"><b>Lemme Show You a Song</b></Card.Header>
-                    <Card.Img variant="top" src={LemmeShowYou} />
+                    <a href="https://www.youtube.com/watch?v=ALe5D4jcnQs"> <Card.Img variant="top" src={LemmeShowYou} /></a>
                     <Card.Body>
                         <Card.Text>
                             A full stack web application which allows Spotify users to generate playlists of recommended new songs. 
@@ -36,8 +36,8 @@ const Projects = () => {
                             PYTHON | FLASK | POSTGRESSQL | SQLALCHEMY | JAVASCRIPT | JINJA2 | AJAX | SPOTIFY API | CHART.JS | BOOTSTRAP
                         </footer><br></br>
                         {isShown && (<div><a href="https://www.youtube.com/watch?v=ALe5D4jcnQs"> <PlayBtn size={28} style={{
-                            animationIterationCount: "2" }} className="fa-bounce" /></a>&emsp;<a href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md"> <Github size={28} style={{
-                            animationIterationCount: "2" }} className="fa-bounce"  /></a></div>)}
+                            animationIterationCount: "1" }} className="fa-bounce" /></a>&emsp;<a href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md"> <Github size={28} style={{
+                            animationIterationCount: "1" }} className="fa-bounce"  /></a></div>)}
                         {!isShown && (<div><a href="https://www.youtube.com/watch?v=ALe5D4jcnQs"> <PlayBtn size={28}/></a>&emsp;<a href="https://github.com/ecmcclain/LemmeShowYouASong/blob/main/README.md"> <Github size={28} /></a></div>)}
                         
                     </Card.Body>
@@ -50,7 +50,7 @@ const Projects = () => {
                         xl={{span: 6}}>
                 <Card className = 'border-dark' style={{ height: '35rem' }}>
                     <Card.Header as="h5"><b>Personal Portfolio</b></Card.Header>
-                    <Card.Img variant="top" src={Portfolio} />
+                    <a href="https://github.com/ecmcclain/Portfolio"><Card.Img variant="top" src={Portfolio} /></a>
                     <Card.Body>
                         <Card.Text>
                             Meta, I know. A living portfolio of my work so far. This project is hosted on GitHub pages and is frequently updated with my new work.  
@@ -59,7 +59,7 @@ const Projects = () => {
                             REACT | BOOTSTRAP
                         </footer><br></br>
                         {isShown && (<a href="https://github.com/ecmcclain/Portfolio"> <Github size={28} style={{
-                            animationIterationCount: "2" }}className="fa-bounce" /></a>)}
+                            animationIterationCount: "1" }}className="fa-bounce" /></a>)}
                         {!isShown && (<a href="https://github.com/ecmcclain/Portfolio"> <Github size={28} /></a>)}
                     </Card.Body>
                 </Card>
